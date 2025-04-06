@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lightspeed Exploit</title>
+  <link rel="shortcut icon" type="image/png" href="https://blobby-boi.github.io/BlobbypassXSS/favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
+  <link rel="stylesheet" href="lol.css">
+</head>
+<body>
+
+<div class="container">
+  <p>This exploit is a modified version of ExtHang3r which is used to kill lightspeed as of the LTMEAT patch in 2024.</p>
+  <label for="iframeSelect" id="labelForIframeSelect">Select extension:</label>
+  <select id="iframeSelect">
+  </select>
+  <button onclick="warning();" id="hangButton">Hang Extension</button><br>
+ 
+  <button id="killButton" onclick="openExtensionPopup();">Kill Extension!</button>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="spinner"></div>
+  Hanging... DO NOT CLOSE OR CHROME WILL BREAK (Takes 1 minute)
+</div>
+<div id="killExtensionText"></div>
+
+  <p style="text-align: center;">Credits to <a href="https://github.com/Blobby-Boi/">Blobby Boi</a> for the original JavaScript code.</p>
+
+
+  <script src="proxy.js"></script>
+</body>
+</html>

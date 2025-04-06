@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "This is a Node.js project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "devDependencies": {}
+}
